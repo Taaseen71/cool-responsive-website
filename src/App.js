@@ -1,11 +1,12 @@
-import './App.css';
-
-
+import GlobalStyles from './components/GlobalStyles';
+import AboutUs from './pages/AboutUs';
 
 function App() {
     return (
         <div className="App">
-            <h1>hello</h1>
+            <h1>Saad's Photography</h1>
+            <GlobalStyles />
+            <AboutUs />
         </div>
     );
 }
