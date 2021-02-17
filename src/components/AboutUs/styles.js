@@ -40,7 +40,8 @@ export const Card = styled.div`
 
 export const Description = styled.div`
     flex: 1;
-    padding-right: 5rem;
+    padding: 0 5rem;
+
     h2{
         font-weight: lighter;
     }
@@ -60,3 +61,28 @@ export const Hide = styled.div`
     overflow: hidden;
 `
 
+export const Faq = styled(AboutDiv)`
+    display: block;
+    span{
+    display: block;
+    }
+    h2{
+        padding-bottom: 2rem;
+        font-weight: lighter;
+    }
+    .faq-line{
+        background: #cccccc;
+        height:0.2rem;
+        margin: 2rem 0rem;
+        width: 100%;
+    }
+    .question{
+        /* font-size: 2rem; */
+    }
+    .answer{
+        p{
+            font-size: 1rem;
+        }
+    }
+
+`

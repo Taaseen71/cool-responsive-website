@@ -11,6 +11,9 @@ function Services() {
     return (
         <div>
             <ServicesDiv>
+                <Image>
+                    <img src={home2} alt="" />
+                </Image>
                 <Description>
                     <h2>High <span> quality</span> services</h2>
                     <Cards>
@@ -41,6 +44,7 @@ function Services() {
                         <Card>
                             <div className="icon">
                                 <img src={money} alt="" />
+
                                 <h3>Affordable</h3>
                             </div>
                             <p>Lorem ipsum dolor sit amet.</p>
@@ -48,9 +52,7 @@ function Services() {
 
                     </Cards>
                 </Description>
-                <Image>
-                    <img src={home2} alt="" />
-                </Image>
+
             </ServicesDiv>
         </div>
     )
