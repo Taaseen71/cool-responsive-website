@@ -19,7 +19,7 @@ function Services() {
                     <Cards>
                         <Card>
                             <div className="icon">
-                                <img src={clock} alt="" />
+                                <img src={clock} alt="" style={{ width: "50px", height: "50px" }} />
                                 <h3>Efficient</h3>
                             </div>
                             <p>Lorem ipsum dolor sit amet.</p>
@@ -27,7 +27,7 @@ function Services() {
 
                         <Card>
                             <div className="icon">
-                                <img src={teamwork} alt="" />
+                                <img src={teamwork} alt="" style={{ width: "40px", height: "40px" }} />
                                 <h3>Teamwork</h3>
                             </div>
                             <p>Lorem ipsum dolor sit amet.</p>
@@ -35,7 +35,7 @@ function Services() {
 
                         <Card>
                             <div className="icon">
-                                <img src={diaphragm} alt="" />
+                                <img src={diaphragm} alt="" style={{ width: "40px", height: "40px" }} />
                                 <h3>Diaphragm</h3>
                             </div>
                             <p>Lorem ipsum dolor sit amet.</p>
@@ -43,7 +43,7 @@ function Services() {
 
                         <Card>
                             <div className="icon">
-                                <img src={money} alt="" />
+                                <img src={money} alt="" style={{ width: "50px", height: "50px" }} />
 
                                 <h3>Affordable</h3>
                             </div>
